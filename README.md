@@ -1,43 +1,54 @@
-# QianTa 電商管理系統
+<div align="center">
+  
+# 🚗 QianTa 汽車商城全端專案
 
-> 📖 [返回個人簡介](https://github.com/Qoo143/profile) | 🎯 轉職課程畢業作品
+![Vue.js](https://img.shields.io/badge/Vue.js-3.5-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-4.21-000000?style=for-the-badge&logo=express&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-一個完整的全端電商管理系統，實現前後台分離架構，支援商品管理、購物車、訂單流程等核心電商功能。
+*完整的電商管理系統 | 前後台分離架構 | 4個月學習成果*
 
-## 🚀 專案連結
+</div>
 
-- **🌐 [前端專案](https://github.com/Qoo143/finall_front)** - Vue 3 + TypeScript
-- **⚙️ [後端專案](https://github.com/Qoo143/finall_back)** - Express + MySQL
+---
 
-## 📋 解決的核心問題
+## 🎥 完整功能演示
 
-### 電商系統完整功能
-- **商品管理**：新增、編輯、刪除商品，支援圖片上傳與 3D 模型展示
-- **購物車系統**：加入購物車、數量調整、即時計算總價
-- **訂單流程**：下單、付款、訂單狀態管理
-- **用戶管理**：會員註冊登入、訂單查詢
+<div align="center">
 
-### 權限分離架構
-- **一般用戶**：商品瀏覽、購物車、訂單管理
-- **管理員**：後台商品管理、分類標籤管理、訂單處理
-- **JWT 身份驗證**：確保 API 安全性
+**📺 將你的 `full-demo.mp4` 上傳後，GitHub會自動生成影片ID，替換下方連結**
 
-### 使用體驗優化
-- **GSAP 滾動動畫**：主頁 ScrollTrigger 實現流暢視覺效果
-- **響應式設計**：適配桌面與移動端
-- **3D 商品展示**：Google Model Viewer 展示立體商品
+https://github.com/Qoo143/QianTa/assets/你的GitHub用戶ID/影片資源ID
+
+*3分鐘完整展示 - 從前台購物體驗到後台管理系統*
+
+</div>
+
+---
+
+## 🎯 專案亮點
+
+- 🛒 **完整電商閉環** - 商品瀏覽 → 購物車 → 結帳 → 訂單管理
+- 🎭 **3D商品展示** - model-viewer 實現立體商品預覽
+- 🔄 **狀態管理** - Pinia 實現購物車跨頁面數據同步  
+- 🎨 **動畫效果** - GSAP ScrollTrigger 打造流暢滾動體驗
+- 🔐 **權限分離** - JWT 身份驗證，前後台角色區分
+- 📦 **模組化設計** - 前後端分離，RESTful API 標準
+
+---
 
 ## 🛠 技術架構
 
 ### 前端技術棧
 ```
-Vue 3 (Composition API) + TypeScript
-├── 狀態管理: Pinia
-├── UI 框架: Element Plus
+Vue 3 + TypeScript + Pinia
+├── UI框架: Element Plus
+├── 動畫庫: GSAP + ScrollTrigger  
+├── 3D展示: Google Model Viewer
+├── 狀態管理: Pinia Store
 ├── 路由管理: Vue Router
-├── 動畫效果: GSAP + ScrollTrigger
-├── 3D 展示: Google Model Viewer
-└── HTTP 請求: Axios
+└── 樣式處理: SCSS
 ```
 
 ### 後端技術棧
@@ -46,100 +57,171 @@ Express.js + MySQL
 ├── 身份驗證: JWT + bcryptjs
 ├── 檔案上傳: Multer
 ├── 資料驗證: Joi
-├── API 設計: RESTful
+├── 資料庫: MySQL + 連接池
+├── API設計: RESTful
 └── 錯誤處理: 統一中間件
 ```
 
-### 核心特色
-- **3D 模型展示**：支援 GLB 格式商品模型
-- **圖片處理**：多圖上傳、主圖設定、縮圖展示
-- **狀態管理**：Pinia 實現購物車跨頁面狀態同步
-- **動畫交互**：GSAP 實現首頁滾動視差效果
+---
 
-## 📊 API 設計概覽
+## ✨ 核心功能展示
 
-### 商品管理 API
-```
-GET    /products          # 商品列表(支援篩選)
-GET    /products/:id      # 商品詳情
-POST   /products          # 新增商品
-PUT    /products/:id      # 更新商品
-DELETE /products/:id      # 刪除商品
-```
+### 🛒 前台購物體驗
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/frontend/product-list.png" alt="商品列表"/>
+      <p align="center"><b>商品瀏覽與搜索</b></p>
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/frontend/3d-model-viewer.png" alt="3D展示"/>
+      <p align="center"><b>3D商品模型展示</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="docs/screenshots/frontend/shopping-cart.png" alt="購物車"/>
+      <p align="center"><b>購物車管理</b></p>
+    </td>
+    <td>
+      <img src="docs/screenshots/frontend/checkout-form.png" alt="結帳"/>
+      <p align="center"><b>結帳流程</b></p>
+    </td>
+  </tr>
+</table>
 
-### 購物車 API
-```
-GET    /api/cart          # 獲取購物車
-POST   /api/cart/items    # 加入商品
-PATCH  /api/cart/items/:id # 更新數量
-DELETE /api/cart/items/:id # 移除商品
-```
-
-### 訂單管理 API
-```
-GET    /api/orders        # 訂單列表
-POST   /api/orders        # 建立訂單
-PATCH  /api/orders/:id/cancel # 取消訂單
-```
-
-### 用戶認證 API
-```
-POST   /api/register      # 用戶註冊
-POST   /api/login         # 用戶登入
-```
-
-## 🎯 專案架構設計
-
-### 前端模組化結構
-```
-src/
-├── components/     # 可復用組件
-├── views/         # 頁面組件
-├── stores/        # Pinia 狀態管理
-├── api/           # API 請求封裝
-├── utils/         # 工具函數
-└── types/         # TypeScript 型別定義
-```
-
-### 後端分層架構
-```
-├── router/                # 路由定義
-├── router_controllers/    # 控制器邏輯
-├── middleware/           # 中間件
-├── db/                   # 資料庫連接
-└── public/uploads/       # 檔案存儲
-```
-
-## 🚧 開發思路與挑戰
-
-### 學習路徑
-- **技術選擇**：研究各框架評論與發展趨勢，選擇 Vue 3 生態系
-- **架構設計**：參考《Vue.js 設計與實現》等書籍，建立模組化架構
-- **開發策略**：AI 輔助生成基礎代碼，再手動調整符合需求
-
-### 技術難點解決
-- **狀態同步**：Pinia 解決購物車跨頁面狀態管理
-- **檔案上傳**：Multer 處理多圖片與 3D 模型上傳
-- **權限控制**：JWT 中間件實現路由層級權限驗證
-- **動畫性能**：GSAP 優化滾動動畫避免卡頓
-
-### AI 輔助開發實踐
-2個月完成全端專案的關鍵：**先求有，再求好**
-- 透過 AI 快速生成 API 架構與基礎組件
-- 手動優化業務邏輯與用戶體驗細節
-- 重點放在功能完整性而非代碼完美度
-
-## 📈 專案成果
-
-- **開發週期**：2個月（學習4個月後）
-- **代碼量**：前端約 15,000 行，後端約 8,000 行
-- **功能完整度**：涵蓋電商核心流程
-- **技術整合**：成功整合 10+ 技術棧
+### 🔧 後台管理系統
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/backend/product-management.png" alt="商品管理"/>
+      <p align="center"><b>商品管理介面</b></p>
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/backend/product-editor.png" alt="商品編輯"/>
+      <p align="center"><b>商品編輯功能</b></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="docs/screenshots/backend/image-upload.png" alt="圖片上傳"/>
+      <p align="center"><b>圖片上傳管理</b></p>
+    </td>
+    <td>
+      <img src="docs/screenshots/backend/order-management.png" alt="訂單管理"/>
+      <p align="center"><b>訂單狀態管理</b></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 💡 開發心得
+## 🏗 系統架構設計
 
-從零基礎到完成全端專案，最大的體悟是**時間管理**與**技術選擇**的重要性。通過 AI 輔助開發大幅提升效率，但更重要的是理解業務邏輯並做出正確的架構決策。這個專案讓我體驗到全端開發的挑戰與成就感。
+<img src="docs/screenshots/architecture/system-architecture.png" alt="系統架構圖" width="100%"/>
 
-> 📋 詳細說明請查看各專案儲存庫的 README 文件
+### 架構特點
+- **前後端分離**：Vue SPA + Express API Server
+- **數據庫設計**：關聯式設計，支援商品、用戶、訂單完整關聯
+- **身份驗證**：JWT Token 機制，支援權限控制
+- **檔案管理**：支援商品圖片、3D模型檔案上傳存儲
+
+---
+
+## 🔧 技術挑戰與解決方案
+
+### 購物車狀態同步
+**挑戰**：用戶在不同頁面間購物車數據需保持一致  
+**解決**：Pinia Store + localStorage 持久化存儲
+
+### 多檔案上傳處理  
+**挑戰**：商品需同時上傳多張圖片和3D模型檔案  
+**解決**：Multer中間件 + 事務處理確保數據完整性
+
+### JWT權限控制
+**挑戰**：前台用戶與後台管理員權限區分  
+**解決**：JWT Token攜帶角色信息 + 路由中間件驗證
+
+### 3D模型展示
+**挑戰**：商品3D模型在瀏覽器中展示  
+**解決**：Google Model Viewer + GLB格式支援
+
+---
+
+## 📊 專案數據
+
+- **開發週期**：2個月完整開發
+- **代碼量**：前端 15,000+ 行，後端 8,000+ 行  
+- **功能模組**：用戶認證、商品管理、購物車、訂單處理
+- **API接口**：20+ 個 RESTful 接口
+- **數據表**：12 個核心業務表
+
+---
+
+## 🚀 快速開始
+
+### 前端啟動
+```bash
+cd finall_front
+npm install
+npm run dev
+```
+
+### 後端啟動  
+```bash
+cd finall_back
+npm install
+# 配置 .env 環境變數
+npm start
+```
+
+### 環境需求
+- Node.js 18+
+- MySQL 8.0+
+- Vue CLI 5+
+
+---
+
+## 📋 主要功能
+
+### 前台功能
+- ✅ 用戶註冊登入
+- ✅ 商品瀏覽搜索  
+- ✅ 3D商品展示
+- ✅ 購物車管理
+- ✅ 結帳流程
+- ✅ 訂單查詢
+
+### 後台功能
+- ✅ 商品管理 (CRUD)
+- ✅ 圖片上傳管理
+- ✅ 3D模型上傳
+- ✅ 分類標籤管理  
+- ✅ 訂單狀態管理
+- ✅ 用戶權限控制
+
+---
+
+## 🔗 相關連結
+
+- **🌐 [前端專案](https://github.com/Qoo143/finall_front)** - Vue 3 + TypeScript 用戶界面
+- **⚙️ [後端專案](https://github.com/Qoo143/finall_back)** - Express + MySQL API 服務  
+- **🏠 [開發者簡介](https://github.com/Qoo143)** - 更多專案與技術經歷
+
+---
+
+## 📝 開發心得
+
+這個專案是我從零基礎學習程式開發4個月後的成果展現。從最初的 HTML/CSS 基礎，到掌握 Vue 3 生態系，再到後端 Express 開發，每一步都充滿挑戰。
+
+最大的收穫是理解了全端開發的完整流程，以及如何運用 AI 輔助開發來提升效率。雖然代碼還有優化空間，但功能的完整性讓我對自己的學習成果很有信心。
+
+---
+
+<div align="center">
+
+**⭐ 如果這個專案對你有幫助，請給個 Star 支持！**
+
+**📧 聯絡方式**: wayne676803@gmail.com
+
+</div>
