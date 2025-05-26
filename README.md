@@ -69,23 +69,45 @@ Express.js + MySQL
 ### 🛒 前台購物體驗
 <table>
   <tr>
-    <td width="50%">
-      <img src="docs/screenshots/frontend/product-list.png" alt="商品列表"/>
-      <p align="center"><b>商品瀏覽與搜索</b></p>
+    <td width="33%">
+      <img src="docs/screenshots/frontend/home_index.png" alt="官網首頁"/>
+      <p align="center"><b>官網首頁</b></p>
     </td>
-    <td width="50%">
-      <img src="docs/screenshots/frontend/3d-model-viewer.png" alt="3D展示"/>
-      <p align="center"><b>3D商品模型展示</b></p>
+    <td width="33%">
+      <img src="docs/screenshots/frontend/home_productPage.png" alt="商品頁面"/>
+      <p align="center"><b>商品頁面</b></p>
+    </td>
+     <td width="33%">
+      <img src="docs/screenshots/frontend/home_productCart.png" alt="購物車"/>
+      <p align="center"><b>購物車</b></p>
     </td>
   </tr>
   <tr>
-    <td>
-      <img src="docs/screenshots/frontend/shopping-cart.png" alt="購物車"/>
-      <p align="center"><b>購物車管理</b></p>
+     <td width="33%">
+      <img src="docs/screenshots/frontend/home_addToCart.png" alt="數量選擇"/>
+      <p align="center"><b>數量選擇</b></p>
     </td>
-    <td>
-      <img src="docs/screenshots/frontend/checkout-form.png" alt="結帳"/>
-      <p align="center"><b>結帳流程</b></p>
+    <td width="33%">
+      <img src="docs/screenshots/frontend/home_productDetail.png" alt="商品詳情"/>
+      <p align="center"><b>商品詳情</b></p>
+    </td>
+     <td width="33%">
+      <img src="docs/screenshots/frontend/home_3D.png" alt="3d預覽"/>
+      <p align="center"><b>3d預覽</b></p>
+    </td>
+  </tr>
+  <tr>
+     <td width="33%">
+      <img src="docs/screenshots/frontend/home_checkout.png" alt="結帳頁面"/>
+      <p align="center"><b>結帳頁面</b></p>
+    </td>
+    <td width="33%">
+      <img src="docs/screenshots/frontend/home_checkoutList.png" alt="訂單列表"/>
+      <p align="center"><b>訂單列表</b></p>
+    </td>
+     <td width="33%">
+      <img src="docs/screenshots/frontend/home_checkoutListContent.png" alt="訂單詳情"/>
+      <p align="center"><b>訂單詳情</b></p>
     </td>
   </tr>
 </table>
@@ -93,23 +115,44 @@ Express.js + MySQL
 ### 🔧 後台管理系統
 <table>
   <tr>
-    <td width="50%">
-      <img src="docs/screenshots/backend/product-management.png" alt="商品管理"/>
-      <p align="center"><b>商品管理介面</b></p>
+    <td width="33%">
+      <img src="docs/screenshots/backend/product_productsList.png" alt="產品列表"/>
+      <p align="center"><b>產品列表</b></p>
     </td>
-    <td width="50%">
-      <img src="docs/screenshots/backend/product-editor.png" alt="商品編輯"/>
-      <p align="center"><b>商品編輯功能</b></p>
+    <td width="33%">
+      <img src="docs/screenshots/backend/product_addProduct.png" alt="添加產品"/>
+      <p align="center"><b>添加產品</b></p>
+    </td>
+    <td width="33%">
+      <img src="docs/screenshots/backend/product_editProduct.png" alt="編輯產品"/>
+      <p align="center"><b>添加產品</b></p>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="docs/screenshots/backend/image-upload.png" alt="圖片上傳"/>
-      <p align="center"><b>圖片上傳管理</b></p>
+      <img src="docs/screenshots/backend/product_tag.png" alt="標籤管理"/>
+      <p align="center"><b>標籤管理</b></p>
     </td>
     <td>
-      <img src="docs/screenshots/backend/order-management.png" alt="訂單管理"/>
-      <p align="center"><b>訂單狀態管理</b></p>
+      <img src="docs/screenshots/backend/product_cat.png" alt="分類管理"/>
+      <p align="center"><b>分類管理</b></p>
+    </td>
+    <td>
+      <img src="docs/screenshots/backend/product_addCat.png" alt="添加分類"/>
+      <p align="center"><b>添加分類</b></p>
+    </td>
+  </tr>
+</table>
+### 🔧 登入與註冊
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/screenshots/login/login.png" alt="登入頁面"/>
+      <p align="center"><b>登入頁面</b></p>
+    </td>
+    <td width="50%">
+      <img src="docs/screenshots/login/register.png" alt="註冊頁面"/>
+      <p align="center"><b>註冊頁面</b></p>
     </td>
   </tr>
 </table>
