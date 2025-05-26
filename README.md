@@ -29,7 +29,7 @@ https://github.com/Qoo143/QianTa/assets/你的GitHub用戶ID/影片資源ID
 
 ## 🎯 專案亮點
 
-- 🛒 **完整電商閉環** - 商品瀏覽 → 購物車 → 結帳 → 訂單管理
+- 🛒 **完整電商循環** - 商品瀏覽 → 購物車 → 結帳 → 訂單管理
 - 🎭 **3D商品展示** - model-viewer 實現立體商品預覽
 - 🔄 **狀態管理** - Pinia 實現購物車跨頁面數據同步  
 - 🎨 **動畫效果** - GSAP ScrollTrigger 打造流暢滾動體驗
@@ -62,10 +62,7 @@ Express.js + MySQL
 └── 錯誤處理: 統一中間件
 ```
 
-
-## 🏗 系統架構設計
-
-<img src="docs/screenshots/architecture/system-architecture.png" alt="系統架構圖" width="100%"/>
+---
 
 ### 架構特點
 - **前後端分離**：Vue SPA + Express API Server
@@ -167,7 +164,7 @@ npm start
 
 <div align="center">
 
-**⭐ 如果這個專案對你有幫助，請給個 Star 支持！**
+**⭐ 如果這個專案不錯，可以給個 Star 感謝你的鼓勵！**
 
 **📧 聯絡方式**: wayne676803@gmail.com
 
@@ -175,7 +172,7 @@ npm start
 
 ---
 
-## ✨ 核心功能展示
+## ✨ 網頁圖片展示
 
 ### 🛒 前台購物體驗
 <table>
@@ -191,19 +188,7 @@ npm start
       <img src="docs/screenshots/frontend/home_productPage.png" alt="商品頁面"/>
       <p align="center"><b>商品頁面</b></p>
     </td>
-    </tr>
-  <tr>
-    <td>
-      <img src="docs/screenshots/frontend/home_productCart.png" alt="購物車"/>
-      <p align="center"><b>購物車</b></p>
-    </td>
-    </tr>
-  <tr>
-     <td>
-      <img src="docs/screenshots/frontend/home_addToCart.png" alt="數量選擇"/>
-      <p align="center"><b>數量選擇</b></p>
-    </td>
-    </tr>
+  </tr>
   <tr>
     <td>
       <img src="docs/screenshots/frontend/home_productDetail.png" alt="商品詳情"/>
@@ -215,19 +200,25 @@ npm start
       <img src="docs/screenshots/frontend/home_3D.png" alt="3d預覽"/>
       <p align="center"><b>3d預覽</b></p>
     </td>
-    </tr>
+  </tr>
+  <tr>
+    <td>
+      <img src="docs/screenshots/frontend/home_productCart.png" alt="購物車"/>
+      <p align="center"><b>購物車</b></p>
+    </td>
+  </tr>
   <tr>
      <td>
       <img src="docs/screenshots/frontend/home_checkout.png" alt="結帳頁面"/>
       <p align="center"><b>結帳頁面</b></p>
     </td>
-    </tr>
+  </tr>
   <tr>
     <td>
       <img src="docs/screenshots/frontend/home_checkoutList.png" alt="訂單列表"/>
       <p align="center"><b>訂單列表</b></p>
     </td>
-    </tr>
+  </tr>
   <tr>
      <td>
       <img src="docs/screenshots/frontend/home_checkoutListContent.png" alt="訂單詳情"/>
@@ -239,35 +230,27 @@ npm start
 ### 🔧 後台管理系統
 <table>
   <tr>
-    <td width="50%">
+    <td width="100%">
       <img src="docs/screenshots/backend/product_productsList.png" alt="產品列表"/>
       <p align="center"><b>產品列表</b></p>
     </td>
-    <td width="50%">
-      <img src="docs/screenshots/backend/product_addProduct.png" alt="添加產品"/>
-      <p align="center"><b>添加產品</b></p>
-    </td>
   </tr>
-  
   <tr>
-    <td width="50%">
+    <td>
       <img src="docs/screenshots/backend/product_editProduct.png" alt="編輯產品"/>
       <p align="center"><b>添加產品</b></p>
     </td>
-    <td width="50%">
+  </tr>
+  <tr>
+    <td>
       <img src="docs/screenshots/backend/product_tag.png" alt="標籤管理"/>
       <p align="center"><b>標籤管理</b></p>
     </td>
   </tr>
-  
   <tr>
-    <td width="50%">
+    <td>
       <img src="docs/screenshots/backend/product_cat.png" alt="分類管理"/>
       <p align="center"><b>分類管理</b></p>
-    </td>
-    <td width="50%">
-      <img src="docs/screenshots/backend/product_addCat.png" alt="添加分類"/>
-      <p align="center"><b>添加分類</b></p>
     </td>
   </tr>
   
