@@ -10,7 +10,7 @@
 
 ---
 
-## 🎬 專案演示影片
+## 🎬 專案演示影片 (連結到外部)
 
 <div align="center" width="600px">
 
@@ -51,10 +51,11 @@ QianTa 是一個功能完整的汽車電商系統，提供前台購物體驗和�
 
 ---
 
-## 🔗 專案連結
+## 🔗 專案連結 (查看前端與後端原碼)
 
 - **🌐 [前端專案](https://github.com/Qoo143/finall_front)** - Vue 3 + TypeScript
 - **⚙️ [後端專案](https://github.com/Qoo143/finall_back)** - Express + MySQL
+  
 - **🏠 [開發者簡介](https://github.com/Qoo143)** - 更多專案與技術經歷
 
 ---
@@ -78,9 +79,9 @@ Express.js + MySQL
 ├── 身份驗證: JWT + bcryptjs
 ├── 檔案上傳: Multer
 ├── 資料驗證: Joi
-├── 資料庫: MySQL + 連接池
+├── 資料庫: MySQL
 ├── API設計: RESTful
-└── 錯誤處理: 統一中間鍵
+└── 錯誤處理: 統一中間件
 ```
 
 ### 架構設計理念
@@ -125,8 +126,7 @@ Express.js + MySQL
 - ✅ 商品管理 (CRUD)
 - ✅ 圖片上傳管理
 - ✅ 3D模型上傳
-- ✅ 分類標籤管理  
-- ✅ 訂單狀態管理
+- ✅ 分類標籤管理
 
 ---
 
