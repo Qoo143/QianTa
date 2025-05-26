@@ -69,29 +69,33 @@ Express.js + MySQL
 ### 🛒 前台購物體驗
 <table>
   <tr>
-    <td width="33%">
+     <td width="100%">
       <img src="docs/screenshots/frontend/home_index.png" alt="官網首頁"/>
       <p align="center"><b>官網首頁</b></p>
     </td>
-    <td width="33%">
+  </tr>
+  <tr>
+    <td width="100%">
       <img src="docs/screenshots/frontend/home_productPage.png" alt="商品頁面"/>
       <p align="center"><b>商品頁面</b></p>
     </td>
-     <td width="33%">
+  </tr>
+  <tr>
+    <td width="50%">
       <img src="docs/screenshots/frontend/home_productCart.png" alt="購物車"/>
       <p align="center"><b>購物車</b></p>
     </td>
-  </tr>
-  <tr>
-     <td width="33%">
+     <td width="50%">
       <img src="docs/screenshots/frontend/home_addToCart.png" alt="數量選擇"/>
       <p align="center"><b>數量選擇</b></p>
     </td>
-    <td width="33%">
+  </tr>
+  <tr>
+    <td width="50%">
       <img src="docs/screenshots/frontend/home_productDetail.png" alt="商品詳情"/>
       <p align="center"><b>商品詳情</b></p>
     </td>
-     <td width="33%">
+     <td width="50%">
       <img src="docs/screenshots/frontend/home_3D.png" alt="3d預覽"/>
       <p align="center"><b>3d預覽</b></p>
     </td>
