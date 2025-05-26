@@ -74,34 +74,50 @@ Express.js + MySQL
       <img src="docs/screenshots/frontend/home_index.png" alt="官網首頁"/>
       <p align="center"><b>官網首頁</b></p>
     </td>
-    <td>
+  </tr>
+  <tr>
+    <td >
       <img src="docs/screenshots/frontend/home_productPage.png" alt="商品頁面"/>
       <p align="center"><b>商品頁面</b></p>
     </td>
+    </tr>
+  <tr>
     <td>
       <img src="docs/screenshots/frontend/home_productCart.png" alt="購物車"/>
       <p align="center"><b>購物車</b></p>
     </td>
+    </tr>
+  <tr>
      <td>
       <img src="docs/screenshots/frontend/home_addToCart.png" alt="數量選擇"/>
       <p align="center"><b>數量選擇</b></p>
     </td>
+    </tr>
+  <tr>
     <td>
       <img src="docs/screenshots/frontend/home_productDetail.png" alt="商品詳情"/>
       <p align="center"><b>商品詳情</b></p>
     </td>
+    </tr>
+  <tr>
      <td>
       <img src="docs/screenshots/frontend/home_3D.png" alt="3d預覽"/>
       <p align="center"><b>3d預覽</b></p>
     </td>
+    </tr>
+  <tr>
      <td>
       <img src="docs/screenshots/frontend/home_checkout.png" alt="結帳頁面"/>
       <p align="center"><b>結帳頁面</b></p>
     </td>
+    </tr>
+  <tr>
     <td>
       <img src="docs/screenshots/frontend/home_checkoutList.png" alt="訂單列表"/>
       <p align="center"><b>訂單列表</b></p>
     </td>
+    </tr>
+  <tr>
      <td>
       <img src="docs/screenshots/frontend/home_checkoutListContent.png" alt="訂單詳情"/>
       <p align="center"><b>訂單詳情</b></p>
