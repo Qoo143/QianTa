@@ -12,9 +12,9 @@
 
 ## 🎬 專案演示影片
 
-<div align="center">
+<div align="center" width="600px">
 
-[![QianTa 電商系統完整演示](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+[![QianTa 電商系統完整演示](docs/screenshots/frontend/home_index.png)]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=esLdX9oOl5s&list=RDesLdX9oOl5s&start_radio=1&ab_channel=HuaChenyu))
 
 *點擊上方圖片觀看完整功能演示*
 
