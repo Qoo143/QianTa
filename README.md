@@ -68,18 +68,21 @@ Express.js + MySQL
 
 ### 🛒 前台購物體驗
 <table>
+  
   <tr>
      <td width="100%">
       <img src="docs/screenshots/frontend/home_index.png" alt="官網首頁"/>
       <p align="center"><b>官網首頁</b></p>
     </td>
   </tr>
+  
   <tr>
     <td width="100%">
       <img src="docs/screenshots/frontend/home_productPage.png" alt="商品頁面"/>
       <p align="center"><b>商品頁面</b></p>
     </td>
   </tr>
+  
   <tr>
     <td width="50%">
       <img src="docs/screenshots/frontend/home_productCart.png" alt="購物車"/>
@@ -90,6 +93,7 @@ Express.js + MySQL
       <p align="center"><b>數量選擇</b></p>
     </td>
   </tr>
+  
   <tr>
     <td width="50%">
       <img src="docs/screenshots/frontend/home_productDetail.png" alt="商品詳情"/>
@@ -100,52 +104,62 @@ Express.js + MySQL
       <p align="center"><b>3d預覽</b></p>
     </td>
   </tr>
+  
   <tr>
-     <td width="33%">
+     <td width="100%">
       <img src="docs/screenshots/frontend/home_checkout.png" alt="結帳頁面"/>
       <p align="center"><b>結帳頁面</b></p>
     </td>
-    <td width="33%">
+  </tr>
+  
+  <tr>
+    <td width="50%">
       <img src="docs/screenshots/frontend/home_checkoutList.png" alt="訂單列表"/>
       <p align="center"><b>訂單列表</b></p>
     </td>
-     <td width="33%">
+     <td width="50%">
       <img src="docs/screenshots/frontend/home_checkoutListContent.png" alt="訂單詳情"/>
       <p align="center"><b>訂單詳情</b></p>
     </td>
   </tr>
+  
 </table>
 
 ### 🔧 後台管理系統
 <table>
   <tr>
-    <td width="33%">
+    <td width="50%">
       <img src="docs/screenshots/backend/product_productsList.png" alt="產品列表"/>
       <p align="center"><b>產品列表</b></p>
     </td>
-    <td width="33%">
+    <td width="50%">
       <img src="docs/screenshots/backend/product_addProduct.png" alt="添加產品"/>
       <p align="center"><b>添加產品</b></p>
     </td>
-    <td width="33%">
+  </tr>
+  
+  <tr>
+    <td width="50%">
       <img src="docs/screenshots/backend/product_editProduct.png" alt="編輯產品"/>
       <p align="center"><b>添加產品</b></p>
     </td>
-  </tr>
-  <tr>
-    <td>
+    <td width="50%">
       <img src="docs/screenshots/backend/product_tag.png" alt="標籤管理"/>
       <p align="center"><b>標籤管理</b></p>
     </td>
-    <td>
+  </tr>
+  
+  <tr>
+    <td width="50%">
       <img src="docs/screenshots/backend/product_cat.png" alt="分類管理"/>
       <p align="center"><b>分類管理</b></p>
     </td>
-    <td>
+    <td width="50%">
       <img src="docs/screenshots/backend/product_addCat.png" alt="添加分類"/>
       <p align="center"><b>添加分類</b></p>
     </td>
   </tr>
+  
 </table>
 ### 🔧 登入與註冊
 <table>
