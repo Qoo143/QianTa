@@ -14,7 +14,7 @@
 
 <div align="center" width="600px">
 
-[![QianTa 電商系統完整演示](docs/screenshots/frontend/home_index.png)](https://www.youtube.com/watch?v=esLdX9oOl5s&list=RDesLdX9oOl5s&start_radio=1&ab_channel=HuaChenyu))
+[![QianTa 電商系統完整演示](docs/screenshots/frontend/home_index.png)](https://www.youtube.com/watch?v=esLdX9oOl5s&list=RDesLdX9oOl5s&start_radio=1&ab_channel=HuaChenyu)
 
 *點擊上方圖片觀看完整功能演示*
 
@@ -26,14 +26,14 @@
 
 QianTa 是一個功能完整的汽車電商系統，提供前台購物體驗和後台管理功能。
 
-用戶 : 可以瀏覽汽車商品、3D預覽、加入購物車、完成結帳；
+用戶 : 可以瀏覽汽車商品、3D預覽、加入購物車、完成模擬結帳；
 
 管理員 : 可以進行商品一系列管理操作。
 
 ### 核心特色
 - 🛒 **完整購物流程** - 商品瀏覽 → 購物車 → 結帳 → 訂單管理
 - 🎭 **3D商品展示** - model-viewer 實現立體商品預覽
-- 🔄 **狀態管理** - Pinia 實現購物車跨頁面數據同步  
+- 🔄 **商品管理** - 後台可讓管理員對產品相關資料做編輯  
 - 🎨 **動畫效果** - GSAP ScrollTrigger 打造流暢滾動體驗
 - 🔐 **權限控制** - JWT 身份驗證，前後台角色區分
 
@@ -44,7 +44,6 @@ QianTa 是一個功能完整的汽車電商系統，提供前台購物體驗和�
 - **開發週期**：2個月AI輔助開發
 - **學習時程**：4個月從零基礎開始自學
 - **總共時程**：共計6個月完成學習與開發
-- **功能模組**：用戶認證、商品管理、購物車、訂單處理
 - **API接口**：20+ 個 RESTful 接口
 - **數據表**：12 個核心業務表
 
@@ -54,8 +53,6 @@ QianTa 是一個功能完整的汽車電商系統，提供前台購物體驗和�
 
 - **🌐 [前端專案](https://github.com/Qoo143/finall_front)** - Vue 3 + TypeScript
 - **⚙️ [後端專案](https://github.com/Qoo143/finall_back)** - Express + MySQL
-  
-- **🏠 [開發者簡介](https://github.com/Qoo143)** - 更多專案與技術經歷
 
 ---
 
@@ -65,7 +62,7 @@ QianTa 是一個功能完整的汽車電商系統，提供前台購物體驗和�
 ```
 Vue 3 + TypeScript + Pinia
 ├── UI框架: Element Plus
-├── 動畫庫: GSAP + ScrollTrigger  
+├── 動畫: GSAP + ScrollTrigger + VueTransition
 ├── 3D展示: Google Model Viewer
 ├── 狀態管理: Pinia Store
 ├── 路由管理: Vue Router
@@ -97,11 +94,11 @@ Express.js + MySQL
 **挑戰**：用戶在不同頁面間購物車數據需保持一致  
 **解決**：Pinia Store + localStorage 持久化存儲
 
-### 多檔案類型與編輯一次處理  
+### 多類型檔案與編輯一次處理  
 **挑戰**：商品需同時上傳多張圖片和3D模型檔案  
 **解決**：Multer中間件 + 事務處理確保數據完整性
 
-### JWT權限控制
+### 權限控制
 **挑戰**：前台用戶與後台管理員權限區分  
 **解決**：JWT Token攜帶角色信息 + 路由中間件驗證
 
@@ -148,16 +145,20 @@ npm run dev
 cd finall_back
 npm install
 # 配置 .env 環境變數
-npm start (也可使用 : nodemon app)
+node app (也可使用 : nodemon app)
 ```
 
 ---
 
 ## 💭 開發心得
 
-這個專案是我從零基礎學習程式開發4個月後的成果展現。從最初的 HTML/CSS 基礎，到掌握 Vue 3 生態系，再到後端 Express 開發，每一步都充滿挑戰。
+這個專案是我從零基礎學習程式開發4個月後的成果展現。從最初的 HTML/CSS/JS 3件套基礎，到學習 Vue 3 系列，再到後端 Express 開發，每一步都充滿挑戰。
 
-最大的收穫是理解了全端開發的完整流程，以及如何運用 AI 輔助開發來提升效率。雖然代碼還有優化空間，但功能的完整性讓我對自己的學習成果很有信心。
+常常有意想不到的問題，或新的專業知識或插件要學習，往往都是靠自學解決問題與持續開發。
+
+這次專案最大的收穫就是，理解了全端開發的完整流程，以及如何運用 AI 輔助開發來提升效率。
+
+雖然代碼還有優化空間，但功能的完整性讓我對自己的學習成果有相當大的成就感。
 
 ---
 
