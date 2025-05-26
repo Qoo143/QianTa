@@ -10,6 +10,18 @@
 
 ---
 
+## 🎬 專案演示影片
+
+<div align="center">
+
+[![QianTa 電商系統完整演示](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+
+*點擊上方圖片觀看完整功能演示*
+
+</div>
+
+---
+
 ## 🎯 專案快速簡介
 
 QianTa 是一個功能完整的汽車電商系統，提供前台購物體驗和後台管理功能。
