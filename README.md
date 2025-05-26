@@ -1,35 +1,49 @@
 <div align="center">
   
 # 🚗 QianTa 汽車商城全端專案
+
 ![Vue.js](https://img.shields.io/badge/Vue.js-3.5-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-4.21-000000?style=for-the-badge&logo=express&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-*完整的電商管理系統 | 前後台分離架構 | 4個月學習成果*
-</div>
-
----
-
-## 🎥 完整功能演示
-
-<div align="center">
-
-**📺 將你的 `full-demo.mp4` 上傳後，GitHub會自動生成影片ID，替換下方連結**
-
-https://github.com/Qoo143/QianTa/assets/你的GitHub用戶ID/影片資源ID
-
-*3分鐘完整展示 - 從前台購物體驗到後台管理系統*
+*完整的電商管理系統 | 前後台分離架構 | 轉職學習成果*
 
 </div>
 
 ---
 
-## 🎯 專案亮點
+## 🎯 專案快速簡介
 
-- 🛒 **完整電商循環** - 商品瀏覽 → 購物車 → 結帳 → 訂單管理
+QianTa 是一個功能完整的汽車電商系統，提供前台購物體驗和後台管理功能。
+
+用戶 : 可以瀏覽汽車商品、3D預覽、加入購物車、完成結帳；
+
+管理員 : 可以進行商品一系列管理操作。
+
+### 核心特色
+- 🛒 **完整購物流程** - 商品瀏覽 → 購物車 → 結帳 → 訂單管理
 - 🎭 **3D商品展示** - model-viewer 實現立體商品預覽
 - 🔄 **狀態管理** - Pinia 實現購物車跨頁面數據同步  
 - 🎨 **動畫效果** - GSAP ScrollTrigger 打造流暢滾動體驗
-- 🔐 **權限分離** - JWT 身份驗證，前後台角色區分
-- 📦 **模組化設計** - 前後端分離，RESTful API 標準
+- 🔐 **權限控制** - JWT 身份驗證，前後台角色區分
+
+---
+
+## 📊 專案數據
+
+- **開發週期**：2個月AI輔助開發
+- **學習時程**：4個月從零基礎開始學習
+- **總共時程**：6個月完成
+- **代碼量**：前端 15,000+ 行，後端 8,000+ 行  
+- **功能模組**：用戶認證、商品管理、購物車、訂單處理
+- **API接口**：20+ 個 RESTful 接口
+- **數據表**：12 個核心業務表
+
+---
+
+## 🔗 專案連結
+
+- **🌐 [前端專案](https://github.com/Qoo143/finall_front)** - Vue 3 + TypeScript
+- **⚙️ [後端專案](https://github.com/Qoo143/finall_back)** - Express + MySQL
+- **🏠 [開發者簡介](https://github.com/Qoo143)** - 更多專案與技術經歷
 
 ---
 
@@ -54,26 +68,24 @@ Express.js + MySQL
 ├── 資料驗證: Joi
 ├── 資料庫: MySQL + 連接池
 ├── API設計: RESTful
-└── 錯誤處理: 統一中間件
+└── 錯誤處理: 統一中間鍵
 ```
 
----
-
-### 架構特點
-- **前後端分離**：Vue SPA + Express API Server
+### 架構設計理念
+- **前後端分離**：Vue SPA + Express API Server，職責清晰分離
 - **數據庫設計**：關聯式設計，支援商品、用戶、訂單完整關聯
-- **身份驗證**：JWT Token 機制，支援權限控制
+- **身份驗證**：JWT Token 機制，支援前後台權限控制
 - **檔案管理**：支援商品圖片、3D模型檔案上傳存儲
 
 ---
 
-## 🔧 技術挑戰與解決方案
+## 🔧 網頁建置挑戰
 
-### 購物車狀態同步
+### 購物車狀態
 **挑戰**：用戶在不同頁面間購物車數據需保持一致  
 **解決**：Pinia Store + localStorage 持久化存儲
 
-### 多檔案上傳處理  
+### 多檔案類型與編輯一次處理  
 **挑戰**：商品需同時上傳多張圖片和3D模型檔案  
 **解決**：Multer中間件 + 事務處理確保數據完整性
 
@@ -87,17 +99,31 @@ Express.js + MySQL
 
 ---
 
-## 📊 專案數據
+## 📋 功能清單
 
-- **開發週期**：2個月完整開發
-- **代碼量**：前端 15,000+ 行，後端 8,000+ 行  
-- **功能模組**：用戶認證、商品管理、購物車、訂單處理
-- **API接口**：20+ 個 RESTful 接口
-- **數據表**：12 個核心業務表
+### 前台功能
+- ✅ 用戶註冊登入
+- ✅ 商品瀏覽搜索  
+- ✅ 3D商品預覽
+- ✅ 購物車管理
+- ✅ 結帳流程
+- ✅ 訂單查詢
+
+### 後台功能
+- ✅ 商品管理 (CRUD)
+- ✅ 圖片上傳管理
+- ✅ 3D模型上傳
+- ✅ 分類標籤管理  
+- ✅ 訂單狀態管理
 
 ---
 
 ## 🚀 快速開始
+
+### 環境需求
+- Node.js 18+
+- MySQL 8.0+
+- Vue CLI 5+
 
 ### 前端啟動
 ```bash
@@ -111,45 +137,12 @@ npm run dev
 cd finall_back
 npm install
 # 配置 .env 環境變數
-npm start
+npm start (也可使用 : nodemon app)
 ```
 
-### 環境需求
-- Node.js 18+
-- MySQL 8.0+
-- Vue CLI 5+
-
 ---
 
-## 📋 主要功能
-
-### 前台功能
-- ✅ 用戶註冊登入
-- ✅ 商品瀏覽搜索  
-- ✅ 3D商品展示
-- ✅ 購物車管理
-- ✅ 結帳流程
-- ✅ 訂單查詢
-
-### 後台功能
-- ✅ 商品管理 (CRUD)
-- ✅ 圖片上傳管理
-- ✅ 3D模型上傳
-- ✅ 分類標籤管理  
-- ✅ 訂單狀態管理
-- ✅ 用戶權限控制
-
----
-
-## 🔗 相關連結
-
-- **🌐 [前端專案](https://github.com/Qoo143/finall_front)** - Vue 3 + TypeScript 用戶界面
-- **⚙️ [後端專案](https://github.com/Qoo143/finall_back)** - Express + MySQL API 服務  
-- **🏠 [開發者簡介](https://github.com/Qoo143)** - 更多專案與技術經歷
-
----
-
-## 📝 開發心得
+## 💭 開發心得
 
 這個專案是我從零基礎學習程式開發4個月後的成果展現。從最初的 HTML/CSS 基礎，到掌握 Vue 3 生態系，再到後端 Express 開發，每一步都充滿挑戰。
 
@@ -157,17 +150,7 @@ npm start
 
 ---
 
-<div align="center">
-
-**⭐ 如果這個專案不錯，可以給個 Star 感謝你的鼓勵！**
-
-**📧 聯絡方式**: wayne676803@gmail.com
-
-</div>
-
----
-
-## ✨ 網頁圖片展示
+## ✨ 系統畫面展示
 
 ### 🛒 前台購物體驗
 <table>
@@ -233,7 +216,7 @@ npm start
   <tr>
     <td>
       <img src="docs/screenshots/backend/product_editProduct.png" alt="編輯產品"/>
-      <p align="center"><b>添加產品</b></p>
+      <p align="center"><b>商品編輯</b></p>
     </td>
   </tr>
   <tr>
@@ -250,7 +233,8 @@ npm start
   </tr>
   
 </table>
-### 🔧 登入與註冊
+
+### 🔐 登入與註冊
 <table>
   <tr>
     <td width="50%">
@@ -265,3 +249,11 @@ npm start
 </table>
 
 ---
+
+<div align="center">
+
+**⭐ 如果這個專案不錯，可以給個 Star 感謝你的鼓勵！**
+
+**📧 聯絡方式**: wayne676803@gmail.com
+
+</div>
