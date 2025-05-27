@@ -14,7 +14,7 @@
 
 <div align="center" width="600px">
 
-[![QianTa 電商系統完整演示](docs/screenshots/frontend/home_index.png)]([(https://www.youtube.com/watch?v=psT2QZBZMmo&ab_channel=ooQ)])
+[![QianTa 電商系統完整演示](docs/screenshots/frontend/home_index.png)](https://www.youtube.com/watch?v=psT2QZBZMmo)
 
 *點擊上方圖片觀看完整功能演示*
 
