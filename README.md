@@ -8,19 +8,19 @@
 
 </div>
 
----
 
-## 🎬 專案演示影片 (連結到外部)
+
+## 🎬 專案演示影片 ( 連結到Youtube )
 
 <div align="center" width="600px">
 
-[![QianTa 電商系統完整演示](docs/screenshots/frontend/home_index.png)](https://www.youtube.com/watch?v=psT2QZBZMmo)
+[![QianTa 電商系統完整演示](docs/screenshots/frontend/home_index.png)](https://www.youtube.com/watch?v=pso0V32XefA&ab_channel=ooQ)
 
 *點擊上方圖片觀看完整功能演示*
 
 </div>
 
----
+
 
 ## 🎯 專案快速簡介
 
